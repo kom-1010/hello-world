@@ -1,0 +1,7 @@
+header {position: relative; height: 81px;}
+header h1 {text-align: center;}
+header .menu { position: absolute; right: 5px; top: 0;}
+header .menu li {list-style: none; position: relative; float: left;}
+header .menu li:after { content: ""; position: absolute; left: 0; top: 50%; width: 1px; height: 7px; background-color: #ccc; transform: translateY(-50%);}
+header .menu li:first-child:after { display: none;}
+header .menu li a {display: block; height: 63px; line-height: 63px; font-size: 20px; padding: 0px 10px; color: #000;}
